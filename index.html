@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.cdnfonts.com/css/ocr-a-std" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <style> 
+	@import url('https://fonts.cdnfonts.com/css/ocr-a-std');
+		table { 
+			border: 2px solid black; 
+			margin-left: auto; 
+			margin-right: auto; 
+			font-family: 'OCR A Std', sans-serif;
+   			font-weight: normal;
+   			font-style: italic;
+		} 
+		
+		input[type="button"] { 
+			width: 100%; 
+			padding: 20px 40px; 
+			background-color: grey; 
+			color:black; 
+            border: 2px solid black;
+			font-size: 24px; 
+			font-weight: bold; 
+			border: none; 
+			border-radius: 5px; 
+			font-family: 'OCR A Std', sans-serif;
+   			font-weight: normal;
+   			font-style: italic;
+		} 
+		
+		input[type="text"] { 
+			padding: 20px 30px; 
+			background-color: #9dc48e;  
+			font-size: 24px; 
+			font-weight: bold; 
+			border: none; 
+			border-radius: 5px; 
+			border: 2px solid black; 
+			font-family: 'OCR A Std', sans-serif;
+   			font-weight: normal;
+   			font-style: italic;
+		} 
+		td:hover {
+			background-color: rgb(14, 243, 14);
+		}
+	</style> 
+</head> 
+
+<body style="background-color: rgb(107, 163, 212);"> 
+<br><br><br><br><br><br>
+	<!-- Create table -->
+	<table id="calcu" style="background-color: rgb(54, 54, 54);" >
+		<tr> 
+			<td colspan="3"> 
+				<input type="text" id="result"> 
+			</td> 
+			<td><input type="button" value="C" style="background-color: rgb(235, 29, 70);"></td> 
+		</tr> 
+
+		<tr> 
+			<td><input type="button" value="1"></td> 
+			<td><input type="button" value="2"></td> 
+			<td><input type="button" value="3"></td> 
+			<td><input type="button" value="/" style="background-color: orange;"></td> 
+		</tr> 
+		<tr> 
+			<td><input type="button" value="4"></td> 
+			<td><input type="button" value="5"></td> 
+			<td><input type="button" value="6"></td> 
+			<td><input type="button" value="*" style="background-color: orange;"></td> 
+		</tr> 
+		<tr> 
+			<td><input type="button" value="7"></td> 
+			<td><input type="button" value="8"></td> 
+			<td><input type="button" value="9"></td> 
+			<td><input type="button" value="-" style="background-color: orange;"></td> 
+		</tr> 
+		<tr>  
+			<td><input type="button" value="."></td> 
+            <td><input type="button" value="0"></td>
+			<td><input type="button" value="=" style="background-color: rgb(235, 29, 70);"></td> 
+			<td><input type="button" value="+" style="background-color: orange;"></td> 
+		</tr> 
+	</table> 
+</body>
+</html>
